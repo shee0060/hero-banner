@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
@@ -24,8 +25,10 @@ p {
   width: 100%;
   max-width: 50em;
   max-height: 500px;
+  overflow: hidden;
 }
 
 .banner {
-
+  position: relative;
+  width: 100%;
 }
