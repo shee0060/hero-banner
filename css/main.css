@@ -21,7 +21,7 @@ p {
 }
 
 .img-flex {
-  display: block;
+  position: absolute;
   width: 100%;
   max-width: 50em;
   max-height: 500px;
